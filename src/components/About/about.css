@@ -1,0 +1,139 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 20px;
+    background-color: #080427;
+}
+.about-title{
+    position: relative;
+    font-size: 26px;
+    font-style:initial;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-title h1{
+    padding: 0px 20px;
+    font-size: 60px;
+    color: #8d7ff4;
+    background: linear-gradient(267deg, #7929bb, #5078b8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ .about-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+ }
+ .about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+ }
+ .about-para{
+    display: flex;
+    gap: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    color: #b9c8d3;
+    margin-left: 120px;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-skill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    color: #b9c8d3;
+    transition: 0.3s;
+    margin: 30px ;
+}
+.about-skill p{
+    font-weight: 600;
+}
+.about-skill hr{
+    outline: none;
+    width: 50%;
+    height: 6px;
+    background:linear-gradient(267deg, #18bd02, #638ed2);
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s;
+}
+.about p{
+    font-size: 20px;
+    color: #b9c8d3;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    line-height: 35px; 
+    margin-left: 80px;   
+}
+.about img{
+    width: 250px;
+    border-radius: 18px;
+    height: 250px;
+    box-shadow: 10px 10px 10px rgba(31, 3, 73, 0.1);
+    transition: 0.3s ease-in-out;
+    margin-left: 80px;}
+.about-left{
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 80px;
+}
+@media (max-width: 768px) {
+    .about-left{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 2;}
+    .about {
+        margin: 50px 70px;
+        gap: 70px; 
+        align-items: start;
+    }
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+    .about-title h1{
+        font-size: 40px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .about h2{
+        font-size: 30px;
+        padding: 10px;
+        margin-left: 20px;
+    }   
+    .about-para{
+        font-size: 20px;
+        line-height: 32px;
+        margin-left: 0px;
+    }
+    .about-skill p{
+        font-size: 18px;
+    }
+    .about-skill{
+        gap: 10px;
+        /* align-items: center; */
+    }
+    .about-skill hr{
+        width: 80%;
+        height: 4px;
+    }
+}
